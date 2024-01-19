@@ -12,9 +12,9 @@ Nerve injuries cause permanent neurological disability due to limited axonal reg
 
 ### **Circadian dataset**
 
-    Methodology: Peripheral (sciatic nerve) injury at *Zeitgeber* (ZT) 8 and ZT20 in C57bl/6 mice (ages 6-8 weeks); 72 hr post-injury, L4-L6 dorsal root ganglia were extracted. A neuronal enriched cell population was selected and processed for RNA-sequencing using Illumina NovaSeq 6000 platform.
+Methodology: Peripheral (sciatic nerve) injury at *Zeitgeber* (ZT) 8 and ZT20 in C57bl/6 mice (ages 6-8 weeks); 72 hr post-injury, L4-L6 dorsal root ganglia were extracted. A neuronal enriched cell population was selected and processed for RNA-sequencing using Illumina NovaSeq 6000 platform.
 
-    RNA-sequencing: 
+RNA-sequencing: 
     - Convert using bcl2fastq conversion software
     - Quality control: FastQC-v.0.11.9
     - Trimmed for low-quality reads and adapters: TrimGalore!-v0.6.6
@@ -26,7 +26,7 @@ Nerve injuries cause permanent neurological disability due to limited axonal reg
 
 ### **Previously published dataset**
 
-    Datasets include: 
+Datasets include: 
     - [GSE97090](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97090): Sham, sciatic nerve injury (SNA), laminectomy (LAM), dorsal column injury (DCA).
     - [GSE59547](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): Sham, sciatic nerve crush (SNC).
     - [GSE125793](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): environmental enrichment (EE), EE+SNA
@@ -36,7 +36,7 @@ Nerve injuries cause permanent neurological disability due to limited axonal reg
 ## Figures and associated scripts
 - Figure 1: Circadian rhythms are common regulators of axonal regeneration.
 
-- Figure 2: Transcriptional anlaysis in DRG after injury identifies time-of-day-dependent processes associated with axonal regeneration.
+- Figure 2: Transcriptional analysis in DRG after injury identifies time-of-day-dependent processes associated with axonal regeneration.
 
 - Figure 5: Bmal1-dependent H3k27ac after injury and long-lasting time-of-day-dependent regeneration of DRG neurons.
 
@@ -46,7 +46,7 @@ Nerve injuries cause permanent neurological disability due to limited axonal reg
 148 DE Clock associated genes (CAGs) and Regeneration associated genes (RAGs) found in the
 149 RNA-seq of DRG after an injury performed at ZT20 vs ZT8 (see also Figure 2).
 
-- Table S3: List of RAGs predicted to contain the Bmal1 motif obtained from in silico
+- Table S3: List of RAGs predicted to contain the Bmal1 motif obtained from *in silico*
 153 transcription factor binding site (TFBS) analysis.
 
 
