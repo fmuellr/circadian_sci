@@ -12,25 +12,26 @@ Nerve injuries cause permanent neurological disability due to limited axonal reg
 
 ### **Circadian dataset**
 
-Methodology: Peripheral (sciatic nerve) injury at *Zeitgeber* (ZT) 8 and ZT20 in C57bl/6 mice (ages 6-8 weeks); 72 hr post-injury, L4-L6 dorsal root ganglia were extracted. A neuronal enriched cell population was selected and processed for RNA-sequencing using Illumina NovaSeq 6000 platform.
+**Methodology:** 
+Peripheral (sciatic nerve) injury at *Zeitgeber* (ZT) 8 and ZT20 in C57bl/6 mice (ages 6-8 weeks); 72 hr post-injury, L4-L6 dorsal root ganglia were extracted. A neuronal enriched cell population was selected and processed for RNA-sequencing using Illumina NovaSeq 6000 platform.
 
-RNA-sequencing: 
-    - Convert using bcl2fastq conversion software
-    - Quality control: FastQC-v.0.11.9
-    - Trimmed for low-quality reads and adapters: TrimGalore!-v0.6.6
-    - Mapping and alignment: Salmon-v1.6.0 in mapping-based mode using M27 assembly
-    - Reformat for differential expression analysis: Tximeta-v1.12.4
-    - Differential expression analysis: DESeq2-v1.34.0 using R-v4.1.2
+**RNA-sequencing:**
+- Convert using bcl2fastq conversion software
+- Quality control: FastQC-v.0.11.9
+- Trimmed for low-quality reads and adapters: TrimGalore!-v0.6.6
+- Mapping and alignment: Salmon-v1.6.0 in mapping-based mode using M27 assembly
+- Reformat for differential expression analysis: Tximeta-v1.12.4
+- Differential expression analysis: DESeq2-v1.34.0 using R-v4.1.2
 
-    Deposited in NCBI GEO under the accession code: [GSE235687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235687).
+Deposited in NCBI GEO under the accession code: [GSE235687](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE235687).
 
 ### **Previously published dataset**
 
 Datasets include: 
-    - [GSE97090](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97090): Sham, sciatic nerve injury (SNA), laminectomy (LAM), dorsal column injury (DCA).
-    - [GSE59547](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): Sham, sciatic nerve crush (SNC).
-    - [GSE125793](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): environmental enrichment (EE), EE+SNA
-    -  Available upon request: intermittent fasting (IF) vs *ad libitum* (AL).
+- [GSE97090](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE97090): Sham, sciatic nerve injury (SNA), laminectomy (LAM), dorsal column injury (DCA).
+- [GSE59547](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): Sham, sciatic nerve crush (SNC).
+- [GSE125793](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi): environmental enrichment (EE), EE+SNA
+-  Available upon request: intermittent fasting (IF) vs *ad libitum* (AL).
 
 
 ## Figures and associated scripts
